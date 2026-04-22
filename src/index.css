@@ -1,0 +1,29 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@theme {
+  /* Professional Water Brand Palette */
+  --color-brand-blue: #003366;   /* Deep Navy for Trust */
+  --color-brand-sky: #33CCFF;    /* Bright Sky for Freshness */
+  --color-brand-green: #28a745;  /* Emerald for Health */
+  --color-brand-light: #f0f9ff;  /* Soft Blue for Backgrounds */
+  --color-brand-dark: #0a192f;   /* Midnight for Footer */
+
+  --font-sans: 'Inter', sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans antialiased text-slate-800 bg-white;
+  }
+}
+
+/* Glassmorphism Effect for Modern Look */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
