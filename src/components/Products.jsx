@@ -2,6 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 // FIXED: Added 'ArrowRight' to the imports below
 import { Star, Package, CheckCircle2, ArrowRight } from 'lucide-react';
+import bottleImg from '../assets/bottle-isolated.png';
+import camperImg from '../assets/camper.png';
+import waterPouchImg from '../assets/Water-pouch.png';
 
 const Products = () => {
     const products = [
@@ -9,7 +12,7 @@ const Products = () => {
             id: 1,
             name: '20L Mineral Jar',
             price: '₹30.00',
-            img: '/src/assets/bottle-isolated.png',
+            img: bottleImg,
             label: 'Most Popular',
             desc: 'Daily doorstep supply with leak-proof seal and certified minerals.'
         },
@@ -17,7 +20,7 @@ const Products = () => {
             id: 2,
             name: 'Chilled Camper',
             price: 'Custom Pricing',
-            img: '/src/assets/camper.png',
+            img: camperImg,
             label: 'Events & Shops',
             desc: 'Insulated campers that keep water chilled for 12+ hours.'
         },
@@ -25,7 +28,7 @@ const Products = () => {
             id: 3,
             name: 'Party Pouches',
             price: 'Bulk Rates',
-            img: '/src/assets/water-pouch.png',
+            img: waterPouchImg,
             label: 'Weddings',
             desc: 'Hygienic 200ml/250ml pouches for large gatherings and parties.'
         },

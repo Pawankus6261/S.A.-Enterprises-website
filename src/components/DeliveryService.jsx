@@ -10,7 +10,6 @@ const DeliveryService = () => {
                 <div className="absolute -top-1/4 -right-1/4 w-[600px] h-[600px] bg-blue-500/20 rounded-full blur-[120px]" />
                 <div className="absolute -bottom-1/4 -left-1/4 w-[600px] h-[600px] bg-brand-sky/10 rounded-full blur-[120px]" />
                 {/* Subtle water texture overlay */}
-                <div className="absolute inset-0 opacity-[0.05] grayscale brightness-0 invert" style={{ backgroundImage: "url('/src/assets/water-bg.png')", backgroundSize: 'cover' }} />
             </div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 relative z-10">

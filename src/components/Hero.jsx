@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Phone, ChevronRight, Droplets, ShieldCheck, Clock, Star } from 'lucide-react';
+import waterDeliveryImg from '../assets/water-delivery.png';
 
 const Hero = () => {
     return (
@@ -104,7 +105,7 @@ const Hero = () => {
                         {/* Masked Subject - Fades into the floor */}
                         <div className="relative h-full w-full flex items-end justify-center lg:justify-end overflow-hidden">
                             <img
-                                src="/src/assets/water-delivery.png"
+                                src={waterDeliveryImg}
                                 alt="Delivery Professional"
                                 onContextMenu={(e) => e.preventDefault()} // Disables Right-Click
                                 onDragStart={(e) => e.preventDefault()}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import bottleImg from '../assets/bottle-isolated.png';
 
 const WaterComposition = () => {
     const elements = [
@@ -83,7 +84,7 @@ const WaterComposition = () => {
                             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-brand-sky/20 rounded-full blur-[100px] group-hover:bg-brand-sky/30 transition-colors duration-700" />
                             
                             <img
-                                src="/src/assets/bottle-isolated.png"
+                                src={bottleImg}
                                 alt="Pure Water Composition"
                                 onContextMenu={(e) => e.preventDefault()} // Disables Right-Click
                                 onDragStart={(e) => e.preventDefault()}

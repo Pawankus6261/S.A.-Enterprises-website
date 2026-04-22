@@ -7,14 +7,12 @@ const About = () => {
         { 
             name: 'Shivaji Kushwaha', 
             role: 'Founder', 
-            img: '/src/assets/owner1.png',
             quote: "Quality is not an act, it is a habit. We deliver purity you can trust.",
             badge: true
         },
         { 
             name: 'Ashish Prajapati', 
             role: 'Co Founder', 
-            img: '/src/assets/owner2.png',
             quote: "Logistics is the heartbeat of our service. On time, every time.",
             badge: true 
         }
